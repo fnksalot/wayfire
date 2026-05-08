@@ -1,0 +1,3 @@
+timeout 150 '~/.wayfire/scripts/fade.py --fadeall' resume '~/.wayfire/scripts/fade.py --unfadeall'
+timeout 360 '~/.scripts/screensaver.py' resume 'pkill -HUP -f screensaver.py'
+timeout 490 'killall -HUP screensaver.py' resume 'notify-send -e -i gentoo "Nap over already?" "still look rough but welcome back"'
